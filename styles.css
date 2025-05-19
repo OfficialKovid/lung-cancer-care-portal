@@ -2148,3 +2148,37 @@ html {
 .contact-form button:hover {
   background-color: #005f91;
 }
+
+/* Back Button Styles */
+.back-button-container {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 9999;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #072ACB;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  opacity: 0.9;
+}
+
+.back-button i {
+  margin-right: 8px;
+}
+
+.back-button:hover {
+  background-color: #0522a5;
+  transform: translateX(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  opacity: 1;
+}
